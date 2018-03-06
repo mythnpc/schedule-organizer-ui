@@ -43,9 +43,9 @@ class SimpleTabs extends React.Component {
                     <div>
                         <Grid item xs={10}>
                             <Tabs value={value} onChange={this.handleChange}>
-                                <Tab label="Attendance" onClick={() => { this.props.history.push('/') }}></Tab>
-                                <Tab label="Member" onClick={() => { this.props.history.push('/new-location') }} />
-                                <Tab label="Heroes" onClick={() => { this.props.history.push('/somewhere') }} />
+                                <Tab label="Attendance" onClick={() => { this.props.history.push('/attendance') }}></Tab>
+                                <Tab label="Member" onClick={() => { this.props.history.push('/hero') }} />
+                                <Tab label="Heroes" onClick={() => { this.props.history.push('/member') }} />
                             </Tabs>
                         </Grid>
                     </div>
