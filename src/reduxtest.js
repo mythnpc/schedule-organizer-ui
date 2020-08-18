@@ -12,6 +12,8 @@ const initialState = {
     error: null
 }
 
+
+//Added a comment here and there
 const userReducer = (state = initialState, action) => {
     switch(action.type){
         case "FETCH_USERS_PENDING":{
